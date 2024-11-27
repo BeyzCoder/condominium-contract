@@ -1,0 +1,79 @@
+.copy-prompt {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+    background-color: var(--color-light-orange);
+    padding: 15px 30px;
+    color: rgb(30, 156, 30);
+
+    border-radius: 5px;
+
+    font-size: 1.2rem;
+
+    transition: .2s ease;
+}
+
+.event-table {
+    padding: 30px 50px;
+    /* box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, .5); */
+    width: min(1000px, 90%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.event-table h2 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.event-row {
+    /* padding: 15px; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px -2px rgba(24, 24, 24, 0.4);
+}
+.event-row p {
+    margin: 0;
+}
+
+.type-event {
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type-event h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.event-id {
+    gap: 20px;
+}
+.event-id img {
+    cursor: pointer;
+}
+
+.detail-event {
+    padding: 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.due-date {
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+}
+
+.due-date p {
+    color: rgb(134, 134, 134);
+}

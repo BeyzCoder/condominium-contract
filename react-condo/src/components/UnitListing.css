@@ -1,0 +1,105 @@
+.unit-table {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.unit-table h2 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+.header-row button {
+    padding: 0 50px;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 3px solid var(--color-orange);
+    color: var(--color-orange);
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.header-row button:hover {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.unit-box {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    box-shadow: 1px 1px 5px -1px rgba(0,0,0,.3);
+    transition: .2s ease;
+}
+.unit-box:hover {
+    scale: 1.03;
+}
+
+.unit-box .apt-id,
+.unit-box .apt-detail,
+.unit-box .buying {
+    padding: 10px 20px;
+}
+
+.unit-box .apt-id {
+    background-color: var(--color-light-orange);
+}
+.unit-box .apt-id h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.unit-box .apt-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: .8rem;
+    padding: 20px 20px;
+    gap: 5px;
+}
+.unit-box .apt-detail div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.unit-box .buying {
+    background-color: var(--color-light-orange);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.unit-box .buying button {
+    padding: 5px 25px;
+    background: var(--color-orange);
+    border: 2px solid var(--color-orange);
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--color-white);
+    transition: .2s ease;
+}
+.unit-box .buying button:hover {
+    background: transparent;
+    color: var(--color-orange);
+}
+
+
+.apt-imgs img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

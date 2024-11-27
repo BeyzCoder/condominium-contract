@@ -1,0 +1,7 @@
+.btn-choice {
+    display: flex;
+    gap: 10px;
+}
+.wrapper .btn-choice button {
+    width: 150px;
+}
